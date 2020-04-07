@@ -1,0 +1,20 @@
+{
+    "joey": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cognitosignin-joey-171931-authRole",
+            "UnauthRoleArn": "arn:aws:iam::353705444272:role/amplify-cognitosignin-joey-171931-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::353705444272:role/amplify-cognitosignin-joey-171931-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-cognitosignin-joey-171931-deployment",
+            "UnauthRoleName": "amplify-cognitosignin-joey-171931-unauthRole",
+            "StackName": "amplify-cognitosignin-joey-171931",
+            "StackId": "arn:aws:cloudformation:us-east-2:353705444272:stack/amplify-cognitosignin-joey-171931/4f1c16f0-784c-11ea-9ba8-027927fac094",
+            "AmplifyAppId": "dq4ew403l7oc8"
+        },
+        "categories": {
+            "auth": {
+                "cognitosigninfa41bfeefa41bfee": {}
+            }
+        }
+    }
+}
