@@ -49,12 +49,7 @@ AUTH for using phone verification (NOTE YOU CANNOT CHANGE THIS LATER)
 - default token experiration  
 - do not specify user attributes this app can read and write  
 - don't enable any of the following capabilities
-- yes use OAuth flow (likely won't use this in the long run, but nice to have when starting) --trying no--
-- default domain prefix
-- redirect signin uri you can enter anything short and memorable and must end with a '/' (example 'https://phonesignin/')
-- dont add another signing URI
-- redirect signout URI is simimilar (example 'https://phonesignout/)
-- no other signout URI
+- NO use OAuth flow 
 - Authorization code grant
 - leave all scopes enabled  
 - do not enable any social providers
