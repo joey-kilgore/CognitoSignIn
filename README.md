@@ -27,6 +27,7 @@ to configure the application with aws
 - use aws profile
 - choose default profile
 
+AUTH for using phone verification (NOTE YOU CANNOT CHANGE THIS LATER)  
 ```amplify add auth```  
 - manual config  
 - user sign-up, sign-in  
