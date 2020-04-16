@@ -27,6 +27,8 @@ class SignInForm extends Component {
   
     signIn() {
         const { username, password } = this.state;  
+        // This is the auth call for sign in, relatively straight forward
+        // Link : https://aws-amplify.github.io/docs/js/authentication
         Auth.signIn({
             username: username,
             password: password
@@ -133,8 +135,16 @@ class SignInForm extends Component {
   
     render() {
       const { signedIn, signInAttempt, verified } = this.state;
-     //const { signInAttempt } = this.state;
 
+      // there are four cases that can be handled
+      // 1. signed in and not verified
+      //        in which case they must be verified
+      // 2. signed in and verified
+      //        in which case everything is good and can be forwarded to the app
+      // 3. not signed in and haven't attempted
+      //        give sign up for user
+      // 4. not signed in and have attempted
+      //        give sign up with warning/error message
       if (signedIn) {
           if (!verified) {
             return(
